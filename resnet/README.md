@@ -64,14 +64,14 @@ BUILD  cifar_input.py  g3doc  README.md  resnet_main.py  resnet_model.py
 $ bazel build -c opt --config=cuda resnet/...
 
 # Train the model.
-$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool1 --pool_type=1 # val_cross_entropy 0.256
-$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool2 --pool_type=2 # val_cross_entropy 0.262
-$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool3 --pool_type=3 # val_cross_entropy 0.253
-$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool4 --pool_type=4 # val_cross_entropy 0.239
+$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool-1 --pool_type=1 # val_cross_entropy 0.256
+$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool-2 --pool_type=2 # val_cross_entropy 0.262
+$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool-3 --pool_type=3 # val_cross_entropy 0.253
+$ bazel-bin/resnet/resnet_main --data_path=cifar10/ --result_path=cifar-results/cifar10/pool-4 --pool_type=4 # val_cross_entropy 0.239
 
-$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool1 --pool_type=1 # val_cross_entropy 1.138
-$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool2 --pool_type=2 # val_cross_entropy 1.130
-$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool3 --pool_type=3 # val_cross_entropy 1.123
-$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool4 --pool_type=4 # val_cross_entropy 1.117
+$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool-1 --pool_type=1 # val_cross_entropy 1.138
+$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool-2 --pool_type=2 # val_cross_entropy 1.130
+$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool-3 --pool_type=3 # val_cross_entropy 1.123
+$ bazel-bin/resnet/resnet_main --dataset=cifar100 --data_path=cifar100/ --result_path=cifar-results/cifar100/pool-4 --pool_type=4 # val_cross_entropy 1.117
 
 ```
