@@ -30,8 +30,8 @@ python data_utils.py
 Then run the training script:
 
 ```
-python train.py --memory_size=8192 --pool_range=1 --save_dir=5-way/pool_1/  
-python train.py --memory_size=8192 --pool_range=2 --save_dir=5-way/pool_2/ 
-python train.py --memory_size=8192 --pool_range=3 --save_dir=5-way/pool_3/ 
-python train.py --memory_size=8192 --pool_range=4 --save_dir=5-way/pool_4/ 
+python train.py --memory_size=8192 --pool_range=1 --save_dir=5-way/pool-1/  
+python train.py --memory_size=8192 --pool_range=2 --save_dir=5-way/pool-2/ 
+python train.py --memory_size=8192 --pool_range=3 --save_dir=5-way/pool-3/ 
+python train.py --memory_size=8192 --pool_range=4 --save_dir=5-way/pool-4/ 
 ```
